@@ -1,7 +1,8 @@
 import styled from '@emotion/styled';
 
 export const Item = styled.li`
-
+    display: flex;
+    margin-top: 10px;
 `;
 
 export const Status = styled.span`
@@ -17,5 +18,5 @@ export const Avatar = styled.img`
 `;
 
 export const Name = styled.p`
-
+    margin: 0;
 `;

@@ -9,6 +9,7 @@ export const Title = styled.h2`
 `;
 
 export const StatisticsList = styled.ul`
+    display: flex;
     list-style: none;
 `;
 
