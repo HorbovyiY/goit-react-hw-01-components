@@ -1,4 +1,6 @@
-import {History } from "./TransactionHistory.styled";
+import PropTypes from 'prop-types';
+
+import { History } from "./TransactionHistory.styled";
 
 export const TransactionHistory = ({ items }) => {
     return (
@@ -22,3 +24,7 @@ export const TransactionHistory = ({ items }) => {
 </History>
     )
 };
+
+TransactionHistory.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.object)
+}

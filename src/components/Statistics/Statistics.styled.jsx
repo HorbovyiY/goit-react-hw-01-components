@@ -1,5 +1,13 @@
 import styled from '@emotion/styled';
 
+export const StatisticsSection = styled.section`
+    
+`;
+
+export const Title = styled.h2`
+    
+`;
+
 export const StatisticsList = styled.ul`
     list-style: none;
 `;
@@ -15,3 +23,4 @@ export const StatisticsLabel = styled.span`
 export const StatisticsPercentage = styled.span`
     
 `;
+
